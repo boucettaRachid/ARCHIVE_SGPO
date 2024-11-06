@@ -1,0 +1,42 @@
+.col-folders, .col-files, .infofiles{
+    height: 630px !important;
+    overflow-y: scroll;
+}
+
+.col-folders::-webkit-scrollbar {
+    display: none;
+  }
+  .infofiles::-webkit-scrollbar{
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .col-folders, .col-files {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+  .col-files::-webkit-scrollbar{
+    display: none;
+  }
+
+  .detailfolder p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 12px;
+  }
+
+  .fileshowclass{
+    height: 590px ;
+  }
+  .fileshowclass img{
+    height: 600px;
+    width: auto;
+    object-fit: contain;
+  }
+  .downqrcode{
+    position: relative;
+    top: -165px;
+    right: -151px;
+    padding: 5px;
+  }

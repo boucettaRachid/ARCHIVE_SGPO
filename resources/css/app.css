@@ -1,0 +1,45 @@
+
+.bg-folder, .bg-file, .bg-users, .bg-info, .bg-archiveshow{
+    background: rgba(231,111,1,255);
+    background: linear-gradient(90deg, rgba(231,111,1,255) 0%, rgba(251,141,44,255) 100%);
+}
+
+.activeuser{
+    background-color: green;
+    border: 2px #fff solid;
+    border-radius: 50px;
+    height: 15px;
+    width: 15px;
+    position: relative;
+    right: -35px;
+    top: -15px;
+}
+.imguser{
+    margin-left:-30px;
+}
+.USERACTIVE img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    object-position: center;
+}
+.activepoint{
+    width: 8px;
+    height: 8px;
+    background-color: rgb(61, 211, 61);
+    border-radius: 30px;
+    position: relative;
+    left: -6px;
+    top: -6px;
+}
+.chartdes h6{
+    font-size: 13px;
+}
+
+.bg-blurgrid{
+    background: rgba(231,111,1,255);
+    background: linear-gradient(90deg, rgba(231,111,1,255) 0%, rgba(251,141,44,255) 100%);
+}
+.bg-blurgrid span, h6, h6 b{
+    color:#fff !important;
+}
