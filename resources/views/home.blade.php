@@ -39,7 +39,7 @@
                                         </svg>
                                         <div class="mx-1 chartdes">
                                             <span>Dernier Dossier</span>
-                                            <h6><b>Code :</b>{{ $lastfolder->Code  }}</h6>                                            
+                                            <h6><b>Code :</b>@if($lastfolder){{ $lastfolder->Code  }}@endif</h6>                                            
                                         </div>
                                     </a>
                                 </div>

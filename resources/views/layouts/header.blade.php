@@ -26,9 +26,14 @@
         <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/qrcode-generator/qrcode.js"></script>
+
+        <!-- Styles -->
+        <link rel="stylesheet" href="{{ asset('resources/css/app.css') }}">
+        <!-- Scripts -->
+        <script src="{{ asset('resources/js/app.js') }}" defer></script>
         
         <!-- Scripts -->
-    @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
+        @vite(['resources/css/app.css', 'resources/sass/app.scss', 'resources/js/app.js'])
     </head>
 
     <body class="bg-light">
